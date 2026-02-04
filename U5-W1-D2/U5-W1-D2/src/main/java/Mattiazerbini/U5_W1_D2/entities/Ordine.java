@@ -1,10 +1,13 @@
 package Mattiazerbini.U5_W1_D2.entities;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+
+@PropertySource("application.properties")
 
 public class Ordine {
     private int numOrdine;
