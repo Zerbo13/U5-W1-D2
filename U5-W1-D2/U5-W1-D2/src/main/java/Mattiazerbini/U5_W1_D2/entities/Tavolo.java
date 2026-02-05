@@ -11,9 +11,10 @@ public class Tavolo {
         this.occupato = false;
     }
 
-    public void occpuaTavolo(){
+    public void occupaTavolo(){
         this.occupato = true;
     }
+
 
     public void liberaTavolo(){
         this.occupato = false;
